@@ -9,11 +9,11 @@ const posts = (await getCollection('blog')).sort(
 );
 ---
 
-<Base title={`Blog — ${site.displayName}`} description={`The blog of ${site.displayName}: ${site.description}`}>
-  <h1>My Blog</h1>
+<Base title={`Dispatches — ${site.displayName}`} description={`Dispatches from the Sinker & Line: six field notes from ${site.displayName}, the Tackle-Box Don of Ul'dah.`}>
+  <h1>Dispatches</h1>
   <p>
-    Thoughts, updates and things I found on the information superhighway.
-    {posts.length} entries so far. Updated {site.updated}.
+    Field notes from the Sinker &amp; Line. {posts.length} entries so far.
+    Some names have been changed. The fish have not. Updated {site.updated}.
   </p>
 
   <ul class="post-list">

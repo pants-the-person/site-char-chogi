@@ -12,6 +12,12 @@ export interface LinkItem {
 export interface NewsItem {
   date: string;
   text: string;
+  href?: string;
+}
+
+export interface StorySection {
+  title: string;
+  paragraphs: string[];
 }
 
 export interface Pair {
@@ -82,9 +88,11 @@ export interface SiteConfig {
   };
   about: {
     intro: string[];
+    personality: string[];
     specs: Pair[];
     favorites: Pair[];
     quote: string;
+    story: StorySection[];
     friends: LinkItem[];
   };
   badges: Badge[];

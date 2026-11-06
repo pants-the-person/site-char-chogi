@@ -5,9 +5,10 @@ import { withBase } from '../lib/site';
 ---
 
 <Base title={`404 — ${site.displayName}`} description="This page could not be found.">
-  <h1>404 &mdash; File Not Found</h1>
+  <h1>404 &mdash; Wrong Alley</h1>
   <p class="center" style="font-family:'Courier New',monospace">
     The page you requested has been moved, deleted, or never existed at all.
+    Happens to the best of us.
   </p>
 
   <pre class="ascii" aria-hidden="true">{`  +----------------------------------+
@@ -25,6 +26,6 @@ import { withBase } from '../lib/site';
   </p>
 
   <p class="center tiny">
-    Or e-mail the webmaster at <a href={`mailto:${site.email}`}>{site.email}</a>.
+    Or send word to the webmaster at <a href={`mailto:${site.email}`}>{site.email}</a>.
   </p>
 </Base>

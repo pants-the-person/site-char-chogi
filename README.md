@@ -1,6 +1,6 @@
 # site-char-chogi
 
-The homepage of Chogi, a small cat who is also a chocobo. Treat reviews, nap reports and cheeps.
+The homepage of Chogi Baji, the Tackle-Box Don: an Ul'dahn angler with a double life, a void problem, and a very patient syndicate.
 
 This is a fictional 1990s-style homepage built with [Astro](https://astro.build): tiled
 backgrounds, a scrolling marquee, a hit counter, an under-construction banner, a

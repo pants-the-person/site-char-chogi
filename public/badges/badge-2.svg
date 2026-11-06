@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="88" height="31" viewBox="0 0 88 31">
-  <rect width="88" height="31" fill="#2e8b57"/>
-  <rect x="1" y="1" width="86" height="29" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <rect width="88" height="31" fill="#3b1f5e"/>
+  <rect x="1" y="1" width="86" height="29" fill="none" stroke="#f3e6cf" stroke-width="2"/>
   <rect x="4" y="4" width="80" height="23" fill="none" stroke="#000000" stroke-width="1"/>
-  <circle cx="8" cy="8" r="1.4" fill="#ffffe0"/>
-  <circle cx="80" cy="8" r="1.4" fill="#ffffe0"/>
-  <text x="44" y="21" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" font-weight="bold" fill="#ffffe0">CHOCOBO CAT</text>
+  <circle cx="8" cy="8" r="1.4" fill="#f3e6cf"/>
+  <circle cx="80" cy="8" r="1.4" fill="#f3e6cf"/>
+  <text x="44" y="21" text-anchor="middle" font-family="'Courier New', monospace" font-size="9.5" font-weight="bold" fill="#f3e6cf">SINKER &amp; LINE</text>
 </svg>

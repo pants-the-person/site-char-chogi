@@ -263,7 +263,7 @@ body.pattern-circuit {
 .hitcounter span {
   flex: 1;
   padding: 1px 0;
-  color: #39ff14;
+  color: var(--accent2);
   background: #111111;
   border: 1px solid #333333;
   font-family: "Courier New", monospace;
@@ -271,7 +271,7 @@ body.pattern-circuit {
   font-weight: bold;
   line-height: 1.2;
   text-align: center;
-  text-shadow: 0 0 6px #39ff14;
+  text-shadow: 0 0 6px var(--accent2);
 }
 
 .tiny {

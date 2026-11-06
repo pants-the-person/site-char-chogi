@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "The homepage of Chogi, a small cat who is also a chocobo. Treat reviews, nap reports and cheeps.",
+  "description": "The homepage of Chogi Baji, the Tackle-Box Don: fishing reports, syndicate dispatches, and a small man's very large grudges.",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",

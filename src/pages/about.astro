@@ -6,17 +6,17 @@ import { withBase } from '../lib/site';
 const linkHref = (href: string) => (href.startsWith('http') ? href : withBase(href));
 ---
 
-<Base title={`About Me — ${site.displayName}`} description={`About ${site.displayName}: ${site.description}`}>
-  <h1>About Me</h1>
+<Base title={`The Tackle-Box Don — ${site.displayName}`} description={`The character profile of ${site.displayName}: the Tackle-Box Don of Ul'dah, angler, information broker, and boss of the Sinker & Line.`}>
+  <h1>The Tackle-Box Don</h1>
 
-  {site.about.intro.map((paragraph) => <p>{paragraph}</p>)}
+  {site.about.intro.map((paragraph) => <p set:html={paragraph} />)}
 
   <blockquote>{site.about.quote}</blockquote>
 
-  <h2>My Machine</h2>
+  <h2>Vital Statistics</h2>
   <table class="retro-table">
     <thead>
-      <tr><th scope="col">Part</th><th scope="col">Spec</th></tr>
+      <tr><th scope="col">Field</th><th scope="col">Detail</th></tr>
     </thead>
     <tbody>
       {
@@ -30,7 +30,11 @@ const linkHref = (href: string) => (href.startsWith('http') ? href : withBase(hr
     </tbody>
   </table>
 
-  <h2>Favorites</h2>
+  <h2>Personality &amp; Traits</h2>
+
+  {site.about.personality.map((paragraph) => <p set:html={paragraph} />)}
+
+  <h2>Preferences</h2>
   <table class="retro-table">
     <tbody>
       {
@@ -44,7 +48,18 @@ const linkHref = (href: string) => (href.startsWith('http') ? href : withBase(hr
     </tbody>
   </table>
 
-  <h2>My Friends</h2>
+  <h2>The Story So Far</h2>
+
+  {
+    site.about.story.map((section) => (
+      <section class="story-section">
+        <h3>{section.title}</h3>
+        {section.paragraphs.map((paragraph) => <p set:html={paragraph} />)}
+      </section>
+    ))
+  }
+
+  <h2>Associates &amp; Neighbors</h2>
   <ul>
     {
       site.about.friends.map((friend) => (
@@ -60,6 +75,6 @@ const linkHref = (href: string) => (href.startsWith('http') ? href : withBase(hr
 
   <p class="center" style="margin-top:24px">
     <a href={withBase('/')}>&laquo; Back to the homepage</a> &middot;
-    <a href={withBase('/blog/')}>Read my blog</a>
+    <a href={withBase('/blog/')}>Read the dispatches</a>
   </p>
 </Base>

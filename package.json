@@ -1,0 +1,19 @@
+{
+  "name": "site-char-chogi",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The homepage of Chogi, a small cat who is also a chocobo. Treat reviews, nap reports and cheeps.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^7.4.5"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -4,5 +4,5 @@
   <rect x="4" y="4" width="80" height="23" fill="none" stroke="#3b1f5e" stroke-width="1"/>
   <circle cx="8" cy="8" r="1.4" fill="#3b1f5e"/>
   <circle cx="80" cy="8" r="1.4" fill="#3b1f5e"/>
-  <text x="44" y="21" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" font-weight="bold" fill="#3b1f5e">THE DON</text>
+  <text x="44" y="21" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" font-weight="bold" fill="#3b1f5e">TINY GODFATHER</text>
 </svg>

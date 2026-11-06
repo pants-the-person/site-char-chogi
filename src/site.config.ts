@@ -301,12 +301,12 @@ export const site: SiteConfig = {
   },
   "badges": [
     {
-      "label": "THE DON",
+      "label": "TINY GODFATHER",
       "bg": "#d4af37",
       "fg": "#3b1f5e"
     },
     {
-      "label": "SINKER & LINE",
+      "label": "BAIT & SWITCH",
       "bg": "#3b1f5e",
       "fg": "#f3e6cf"
     },
@@ -316,7 +316,7 @@ export const site: SiteConfig = {
       "fg": "#b48cff"
     },
     {
-      "label": "KUGANE ANGLER",
+      "label": "SINKER & LINE",
       "bg": "#f3e6cf",
       "fg": "#4a2a6b"
     }

@@ -3,18 +3,18 @@ import { site } from '../site.config';
 ---
 
 <div class="box">
-  <h2 class="box-title">Visitors</h2>
+  <h2 class="box-title">Hits taken</h2>
   <div class="box-body">
     <div
       class="hitcounter"
       data-hit-counter
       data-key={site.slug}
       data-base={site.hitBase}
-      aria-label="Visitor counter"
+      aria-label="Hits taken counter"
     >
       <span>0</span><span>0</span><span>0</span><span>0</span><span>0</span><span>0</span>
     </div>
-    <p class="tiny">since {site.since} &middot; you are visitor</p>
+    <p class="tiny">since {site.since} &middot; and counting</p>
   </div>
 </div>
 

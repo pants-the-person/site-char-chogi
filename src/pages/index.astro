@@ -49,7 +49,15 @@ const linkHref = (href: string) => (href.startsWith('http') ? href : withBase(hr
   </table>
 
   <h2>{site.asciiTitle}</h2>
-  <pre class="ascii">{site.ascii}</pre>
+  <figure class="shot">
+    <img
+      src={withBase('/images/aurora-night-fc.webp')}
+      width="681"
+      height="869"
+      alt="Chogi Baji at night, sunglasses on, cigarette in hand, against a starry sky"
+    />
+    <figcaption>The Don, after hours.</figcaption>
+  </figure>
 
   <h2>Known Nodes</h2>
   <ul>

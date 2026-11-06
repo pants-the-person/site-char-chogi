@@ -562,6 +562,34 @@ code {
   text-shadow: 0 0 5px var(--accent2);
 }
 
+/* ---------- bitmap screenshot ---------- */
+
+.shot {
+  margin: 8px 0 18px;
+  padding: 10px;
+  background: #000000;
+  border: 3px inset #777777;
+  text-align: center;
+}
+
+.shot img {
+  display: block;
+  max-width: 100%;
+  max-height: 70vh;
+  margin: 0 auto;
+  filter: brightness(1.12) contrast(1.04) saturate(0.92) url(#bitmap-256);
+}
+
+.shot figcaption {
+  margin-top: 8px;
+  color: var(--accent2);
+  font-family: "Courier New", monospace;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px var(--accent2);
+}
+
 .stamp {
   display: inline-block;
   padding: 3px 9px;
